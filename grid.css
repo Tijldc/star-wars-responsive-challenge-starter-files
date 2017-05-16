@@ -1,0 +1,66 @@
+*{
+	box-sizing: border-box;
+}
+
+/* mobile defaults */
+
+.row {
+	max-width: 1000px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 30px;
+	
+}
+
+.row::before,
+.row::after {
+  display: table;
+  content: '';
+}
+
+.row::after {
+  clear: both;
+}
+
+.row h4, .row p {
+	padding-left: 5%;
+}
+
+.col-3, .col-4, .col-6, .col-12 {
+	float: left;
+	padding-left:10/960=1.04167%;
+	padding-right: 1.04167%;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 640px) {
+
+.col-4 {
+	width:33.3%;
+}
+}
+
+@media only screen and (min-width: 1000px) {
+	
+	
+
+	.row {
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+}
+
+
+
+
+
+
+

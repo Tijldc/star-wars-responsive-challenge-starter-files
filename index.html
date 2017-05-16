@@ -1,22 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" content="Star Wars card game, collect every character from Chewbacca to Yoda">
   <title>Star Wars Responsive Challenge</title>
 
   <!-- Responsive viewport tag, tells small screens that it's responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="grid.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
 
   <!-- Normalize.css, a cross-browser reset file -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  
+
 
   <!-- Stylesheets -->
 
 </head>
 <body>
+<header>
+	<div class="container">
+		<h1>Star Wars Characters</h1>
+		<h3>Incomplete list</h3>
+	</div>
+</header>
+<main>
+	<div class="row">
+		<div class="col-4">
+			<div class="card">
+			<img src="images/rey_square.png">
+			<h4 class="name">Ray</h5>
+			<p class="role">Protagonist, from Tatooine</h6>
+			</div>
+		</div>
+		<div class="col-4">
+			<div class="card">
+			<img src="images/finn_square.png">
+			<h4 class="name">Finn</h5>
+			<p class="role">Storm trooper, befriends Ray</h6>
+			</div>
+		</div>
+		<div class="col-4">
+			<div class="card">
+			<img src="images/kylo_square.png">
+			<h4 class="name">Kylo</h5>
+			<p class="role">Main villain, or is he?</h6>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-4">
+			<div class="card">
+			<img src="images/poe_square.png">
+			<h4 class="name">Poe</h5>
+			<p class="role">Neutral pilot</h6>
+			</div>
+		</div>
+		<div class="col-4">
+			<div class="card">
+			<img src="images/chewbacca_square.png">
+			<h4 class="name">Chewbacca</h5>
+			<p class="role">A great first mate</h6>
+			</div>
+		</div>
+		<div class="col-4">
+			<div class="card">
+			<img src="images/yoda_square.png">
+			<h4 class="name">Yoda</h5>
+			<p class="role">Wise old Jedi master</h6>
+			</div>
+		</div>
+	</div>
+</main>
 
 </body>
 </html>
